@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131418;
+}
+
+.rating-container {
+    padding: 20px;
+    width: 460px;
+    height: auto;
+    border-radius: 30px;
+    background: linear-gradient(to top, #222b34, #1a232c);
+}
+
+
+.rating-container i {
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 50%;
+    color: #fc7613;
+    background-color: #303741;
+}
+
+.rating-container h2 {
+    font-weight: bold;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.rating-container p {
+    font-size: 16px;
+    margin-top: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #6b6c76;
+}
+
+.rate-num {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.rate-num .rate {
+    padding: 16px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #28303b;
+    transition: all 0.3s ease;
+}
+
+.rate-num .rate:hover {
+    background-color: #fa7413;
+}
+
+.rate span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #949dad;
+    transition: all 0.3s ease;
+}
+
+.rate:hover span {
+    color: #000;
+}
+
+.rate.active {
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    background-color: #fa7413;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow:  0 0 3px 2px #fa7413;
+    background-color: #fff;
+}
+
+.thank-container {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px;
+    width: 425px;
+    border-radius: 30px;
+    background: linear-gradient(to top, #222b34, #1a232c);
+}
+
+.thank-container .out-of {
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 30px;
+    color: #fa7413;
+    font-weight: bold;
+    background-color: #313a41;
+}
+
+.thank-container h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    color: white;
+}
+
+.thank-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #677386;
+}
